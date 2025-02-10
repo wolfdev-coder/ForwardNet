@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'HeroLight-Blod';
+    src: url("../fonts/HeroLight-Bold.otf");
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #FFFFFF, #FB8702); /* сверху вниз как ванечкин любит*/
+    font-family: 'HeroLight-Blod';
+}
+
+.header-container {
+ margin-top: 31px;
+ margin-left: 100px;
+ margin-right: 100px;
+ margin-bottom: 25px;
+ padding: 20px;
+ background: linear-gradient(to right, #EDBB18, #C7B693);
+ border: 1px solid #ccc;
+
+    display: flex; /*выравниваем*/
+    align-items: center; /*вертикальное центрирование*/
+    justify-content: space-between; /*пространство между элементами*/  
+
+    border-radius: 25px;
+}
+
+.logo {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+.button {
+    margin-left: 65px;
+    padding: 18px 20px;
+    background-color: #D9D9D9;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень */
+}
+
+.button:hover {
+    background-color: #F96305;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Более выраженная тень при наведении */
+}
+
+.buttonIcon {
+    display: flex;
+    align-items: center; /* Центрирует содержимое по вертикали */
+    justify-content: center; /* Центрирует содержимое по горизонтали */
+    width: 60px; /* Ширина кнопки */
+    height: 60px; /* Высота кнопки */
+    background-color: #D9D9D9; /* Цвет фона кнопки */
+    color: white; /* Цвет текста/иконки */
+    border: none; /* Убираем рамку */
+    border-radius: 20px; /* Закругление углов */
+    cursor: pointer; /* Курсор при наведении */
+}
+
+.search-container {
+    margin-left: 450px;
+display: flex;
+align-items: center;
+border: 1px solid #ccc;
+border-radius: 25px;
+padding: 10px;
+}
+
+.search-icon {
+    margin-right: 10px;
+}
+
+.search-container input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    background: transparent;
+    flex-grow: 1;
+}
+
+.title-container title{
+margin-top: 30px;
+ margin-left: 100px;
+ margin-right: 100px;
+ margin-bottom: 25px;
+ padding: 20px;
+ background: linear-gradient(to right, #EDBB18, #C7B693);
+ border: 1px solid #ccc;
+
+    display: flex; /*выравниваем*/
+    align-items: center; /*вертикальное центрирование*/
+    justify-content: space-between; /*пространство между элементами*/  
+
+    border-radius: 25px;
+
+    font-size: 128px;
+}
+
+.info-Container {
+     text-align: center;
+    }
+
+.info-Container .text {
+    margin-top: 30px;
+     margin-left: 100px;
+     margin-right: 100px;
+     margin-bottom: 0;
+     padding: 20px;
+     background: linear-gradient(to right, #EDBB18, #C7B693);
+     border: 1px solid #ccc;
+        border-radius: 25px;
+        font-size: 64px;
+}
+
+.divider {
+    border: none; /*убираем стандартные стили границы*/
+    border-top: 1px solid #000; /*добавляем верхние линии*/
+    margin: 0;
+    height: 0;
+
+}
+
+.info-Container .divider {
+    margin-top: 0; /*убираем верхний отступ*/
+    margin-bottom: 25px; /*отступ*/
+        padding: 0 100px;
+}
+
+.text {
+    text-align: center;
+}
+
+.footer-Container {
+    margin-top: 30px;
+ margin-left: 100px;
+ margin-right: 100px;
+ margin-bottom: 25px;
+ padding: 20px;
+ background: linear-gradient(to right, #EDBB18, #C7B693);
+ border: 1px solid #ccc;
+
+    display: flex; /*выравниваем*/
+    align-items: center; /*вертикальное центрирование*/
+    justify-content: space-between; /*пространство между элементами*/  
+
+    border-radius: 25px;
+
+    font-size: 50px;
+}
