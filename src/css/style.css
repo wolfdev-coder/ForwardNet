@@ -3,6 +3,9 @@
 }
 
 .header-article {
-    display: block;
-    
+    display: flex;
+    border-radius: 35px;
+    padding: 30px;
+    width: 95%;
+    height: 10%;
 }
